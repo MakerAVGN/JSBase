@@ -1,3 +1,5 @@
 "use strict";
-let a = "Hello world";
-alert(a.length);
+let str = `a
+b
+c`;
+alert(str);
