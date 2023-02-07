@@ -1,4 +1,12 @@
 "use strict";
-alert('Hello world!'); // комментарий
+let num = 123;
+alert(num);
 
-/* комментарий */
+let a, b, c;
+a = 10;
+alert(a);
+a = 20;
+alert(a);
+b = 2;
+c = 3;
+
