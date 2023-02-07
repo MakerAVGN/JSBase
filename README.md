@@ -1,2 +1,2 @@
-Learn to JavaScript# 123
-# 123
+Learn to JavaScript
+
