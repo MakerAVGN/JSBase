@@ -1,16 +1,21 @@
 "use strict";
-let age = prompt('Ваш возраст?');
-alert('Ваш возраст: ' + age);
+document.write('text');
+document.write('<br>');
+
+document.write('<em>'+ 'text' +'</em    >');
+document.write('<br>');
+
+let str = 'text';
+document.write(str);
+document.write('<br>');
 
 
-let num1 = prompt('Введите первое число');
-let num2 = prompt('Введите второе число');
-
-alert(Number(num1) + Number(num2));
-
-let quad = prompt('Напишите длинну стороны квадрата');
-alert('Площадь квадрата равна' + '' +  quad * 2 * 3.14);
-
-let pt = prompt('Введите длинную сторону прямоугольника');
-let pt2 = prompt('Введите короткую сторону прямоугольника');
-alert(Number(pt) * Number(pt2))
+document.write('1');
+document.write('<br>');
+document.write('2');
+document.write('<br>');
+document.write('3');
+document.write('<br>');
+document.write('4');
+document.write('<br>');
+document.write('5');
