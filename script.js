@@ -1,5 +1,6 @@
 "use strict";
 
-let obj = {1: 'January', 2: 'February', 3: 'March', 4: 'April', 5: 'May', 6: 'June', 7: 'Jule', 8: 'August', 9: 'September', 10: 'October', 11: 'November', 12: 'December'};
-console.log(obj);
+let user = {name: 'Emran', surname:'Kulagin', patronymic: 'Jaferovich', age: '33', country: 'KRYM'};
+console.log(user);
+alert(user['name'] + ' ' + user['surname'] + ' ' + user['patronymic'] + ' ' + user['age'] + ' ' + user['country']);
 
