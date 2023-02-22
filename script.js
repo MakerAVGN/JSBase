@@ -2,10 +2,15 @@
 
 let arr = [];
 
-arr[3] = 'a';
-arr[8] = 'b';
+arr.push('1');
+arr.push('2');
+arr.push('3');
 
-alert(arr.length); // 9
+let arr1 = [1, 2, 3];
+arr1.push('4');
 
+arr1.push('5');
+
+alert(arr1);
 
 
