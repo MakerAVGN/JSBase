@@ -2,13 +2,10 @@
 
 let arr = [];
 
-arr[0] = 'a';
-arr[1] = 'b';
-arr[2] = 'c';
+arr[3] = 'a';
+arr[8] = 'b';
 
-let arr1 = [1, 2, 3];
-arr1[3] = '4';
-arr1[4] = '5';
+alert(arr.length); // 9
 
 
 
