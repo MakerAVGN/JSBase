@@ -2,6 +2,5 @@
 
 
 let obj = {x: 1, y: 2, z: 3};
-delete obj.x;
+document.write( typeof obj['x'] );
 
-document.write('x' in obj);
