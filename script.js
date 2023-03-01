@@ -1,10 +1,24 @@
 "use strict";
 
-let obj = { x: 1, y: 2, z: 3 };
-document.write(obj['x']);
+// let key = 'x';
 
-let obj1 = { x: 1, y: 2, z: 3 };
-let key = 'x';
-document.write(obj1[key]);
+// let obj = {
+// 	[key]: 1,
+// 	y: 2,
+// 	z: 3
+// };
 
 
+
+let key1 = 'x';
+let key2 = 'y';
+let key3 = 'z';
+
+let obj = {
+    [key1]: 1,
+    [key2]: 2,
+	[key3]: 3
+};
+
+
+console.log(obj['x'])
