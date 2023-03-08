@@ -1,46 +1,68 @@
-"use strict";
+// let num1 = -10;
+// let num2 = -10;
 
-//  let test1 = '3';
-// let test2 = '3';
-		
-// if (test1 == test2) {
+// if (num1 >= 0 || num2 >= 0) {
 // 	console.log('+++');
 // } else {
-// 	console.log('---');   true
+// 	console.log('---');   // +
 // }
-// let test1 = '3';
-// let test2 = '3';
-		
-// if (test1 === test2) {
-// 	console.log('+++');
+
+// let num1 = 0;
+// let num2 = 0;
+
+// if (num1 >= 0 || num2 >= 0) {
+// 	console.log('+++');  // +
 // } else {
-// 	console.log('---');   true
+// 	console.log('---');
 // }
-// let test1 = 3;
-// let test2 = '3';
-		
-// if (test1 == test2) {
-// 	console.log('+++');
+
+// let num1 = 0;
+// let num2 = 5;
+
+// if (num1 >= 0 || num2 >= 0) {
+// 	console.log('+++');    // +
 // } else {
-// 	console.log('---'); // true
+// 	console.log('---');
 // }
-// let test1 = 3;
-// let test2 = '3';
-		
-// if (test1 === test2) {
-// 	console.log('+++');
+
+// let num1 = 5;
+// let num2 = 5;
+
+// if (num1 >= 0 || num2 >= 0) {
+// 	console.log('+++'); // +
 // } else {
-// 	console.log('---');   false
+// 	console.log('---');
 // }
 
+// let num1 = -5;
+// let num2 = 15;
 
+// if (num1 >= 0 || num2 >= 0) {
+// 	console.log('+++');   // +
+// } else {
+// 	console.log('---');
+// }
 
+// let num = 1;
 
-let test1 = 3;
-let test2 = 3;
-		
-if (test1 === test2) {
-	console.log('+++');
+// if (num == 0 || num == 1) {
+// 	console.log('+++');   // +
+// } else {
+// 	console.log('---');
+// }
+
+// let num = 2;
+
+// if (num == 0 || num == 1) {
+// 	console.log('+++');   
+// } else {
+// 	console.log('---');  // +
+// }
+
+let num = 2;
+
+if (num == 0 || num == 1 || num == 2) {
+	console.log('+++');   // +
 } else {
-	console.log('---');   true
-} 
+	console.log('---');
+}
